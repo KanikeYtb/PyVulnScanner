@@ -43,5 +43,5 @@ def main(ip, ports):
 
 if __name__ == "__main__":
     target_ip = "1.1.1.1.1."  # IP do seu roteador (mude se necessário)
-    common_ports = [1, 0, 0, 2]  # Portas para HTTP, HTTPS, SSH, FTP
+    common_ports = [80, 443, 22, 21]  # Portas para HTTP, HTTPS, SSH, FTP
     main(target_ip, common_ports)
