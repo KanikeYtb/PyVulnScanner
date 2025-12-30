@@ -42,6 +42,6 @@ def main(ip, ports):
         print(f"Nenhuma porta aberta encontrada em {ip}.")
 
 if __name__ == "__main__":
-    target_ip = "INSIRA_O_IP_AQUI"  # IP do seu roteador (mude se necessário)
+    target_ip = "INSIRA_O_IP_AQUI"  # insira o seu ip
     common_ports = [80, 443, 22, 21]  # Portas para HTTP, HTTPS, SSH, FTP
     main(target_ip, common_ports)
